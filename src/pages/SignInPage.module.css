@@ -39,12 +39,12 @@
 }
 
 .Paragraph {
-  font-family: Plus Jakarta Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 20.16px;
   text-align: center;
   color:#287BFF;
+  padding-bottom: 20px;
 }
 
 .signInForm {
@@ -55,17 +55,19 @@
 .signInInput {
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
+  border: 3px solid #465A83;
+  border-radius: 16px;
+  width: Fixed (439px);
 }
 
 .signInButton {
   padding: 10px;
-  background-color: #007BFF;
+  background-color: #287BFF;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 16px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -78,6 +80,7 @@
   font-size: 14px;
   color: #555;
   text-align: right;
+  padding-bottom: 15px;
 }
 
 .signInLink {
@@ -87,4 +90,13 @@
 
 .signInLink:hover {
   text-decoration: underline;
+}
+
+.InputText {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20.16px;
+  text-align: left;
+  color: #010220;
+  padding-bottom: 8px;
 }
