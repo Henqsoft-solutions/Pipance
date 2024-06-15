@@ -40,6 +40,7 @@ const SignInPage = () => {
           <h2 className={styles.signInTitle}>Welcome back!</h2>
           <p className={styles.Paragraph}>Please enter your details!</p>
           <form className={styles.signInForm} onSubmit={handleSubmit}>
+            <p>Email</p>
             <input
               className={styles.signInInput}
               type="email"
@@ -48,6 +49,7 @@ const SignInPage = () => {
               onChange={(e) => setEmail(e.target.value)}
               required
             />
+            <p>Password</p>
             <input
               className={styles.signInInput}
               type="password"
@@ -56,14 +58,14 @@ const SignInPage = () => {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
+            <p className={styles.signInText}>
+              <a href="#" className={styles.signInLink}>Forgot Password?</a>
+            </p>
             {error && <p className={styles.error}>{error}</p>}
             <button className={styles.signInButton} type="submit">
               Sign in
             </button>
           </form>
-          <p className={styles.signInText}>
-            Forgot Password? <a href="#" className={styles.signInLink}>Forgot Password?</a>
-          </p>
           <p className={styles.signInText}>
             Don’t have an account? <a href="/sign-up" className={styles.signInLink}>Sign Up</a>
           </p>
