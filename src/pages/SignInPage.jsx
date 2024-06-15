@@ -1,19 +1,65 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './SignInPage.module.css';
 import logo from '../assets/logo.svg';
 
 const SignInPage = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('https://pipance-backend.vercel.app/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        localStorage.setItem('token', data.token);
+        window.location.href = '/dashboard'; // Replace with dashboard path
+      } else {
+        const errorData = await response.json();
+        setError(errorData.message);
+      }
+    } catch (error) {
+      console.error('Error logging in:', error);
+      setError('Internal server error');
+    }
+  };
+
   return (
     <div className={styles.signInContainer}>
       <div className={styles.signInBox}>
         <div className={styles.signInLeft}>
           <h2 className={styles.signInTitle}>Welcome back!</h2>
           <p>Please enter your details!</p>
-          <form className={styles.signInForm}>
-            <input className={styles.signInInput} type="email" placeholder="Email" />
-            <input className={styles.signInInput} type="password" placeholder="Password" />
-            <input className={styles.signInInput} type="text" placeholder="Sign up as User" />
-            <button className={styles.signInButton} type="submit">Sign in</button>
+          <form className={styles.signInForm} onSubmit={handleSubmit}>
+            <input
+              className={styles.signInInput}
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+            <input
+              className={styles.signInInput}
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+            {error && <p className={styles.error}>{error}</p>}
+            <button className={styles.signInButton} type="submit">
+              Sign in
+            </button>
           </form>
           <p className={styles.signInText}>
             Forgot Password? <a href="#" className={styles.signInLink}>Forgot Password?</a>
