@@ -5,59 +5,69 @@
   justify-content: center;
   min-height: 100vh;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 10px; /* Reduced padding */
 }
 
 .signUpBox {
   display: flex;
-  width: 800px;
+  width: 700px; /* Reduced width */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
 }
 
 .signUpLeft {
   flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  background-color: #287BFF;
+  border-radius: 10px 0 0 10px;
+  padding: 10px; /* Reduced padding */
+}
+
+.signUpLogo {
+  width: 100%; /* Adjusted to fit the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .signUpRight {
   flex: 1;
-  padding: 40px;
+  padding: 20px; /* Reduced padding */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .signUpTitle {
-  font-size: 32px;
+  font-size: 24px; /* Reduced font size */
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: center;
-  line-height: 40.32px;
+  line-height: 30px; /* Adjusted line height */
   color: #010220;
 }
 
 .Paragraph {
-  font-family: Plus Jakarta Sans;
-  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px; /* Reduced font size */
   font-weight: 400;
-  line-height: 20.16px;
+  line-height: 18px; /* Adjusted line height */
   text-align: center;
-  color:#287BFF;
+  color: #287BFF;
+  margin-bottom: 15px; /* Added margin for spacing */
 }
 
 .InputText {
-  font-size: 16px;
+  font-size: 14px; /* Reduced font size */
   font-weight: 800;
-  line-height: 20.16px;
+  line-height: 18px; /* Adjusted line height */
   text-align: left;
   color: #010220;
-;
+  margin-bottom: 5px;
 }
 
 .signUpForm {
@@ -66,11 +76,26 @@
 }
 
 .signUpInput {
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 8px; /* Reduced padding */
+  margin-bottom: 15px; /* Reduced margin */
   border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 14px; /* Reduced font size */
+}
+
+.signUpInputHalf {
+  padding: 8px; /* Reduced padding */
+  margin-bottom: 15px; /* Reduced margin */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px; /* Reduced font size */
+  flex: 1;
+}
+
+.signUpInputRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .signUpButton {
@@ -79,8 +104,9 @@
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 14px; /* Reduced font size */
   cursor: pointer;
+  margin-top: 15px; /* Reduced margin */
 }
 
 .signUpButton:hover {
@@ -88,8 +114,10 @@
 }
 
 .signUpText {
-  font-size: 14px;
+  font-size: 12px; /* Reduced font size */
   color: #555;
+  margin-top: 15px; /* Reduced margin */
+  text-align: center;
 }
 
 .signUpLink {
@@ -105,6 +133,7 @@
 @media (max-width: 1050px) {
   .signUpBox {
     flex-direction: column;
+    align-items: center;
   }
 
   .signUpLeft {
@@ -114,12 +143,13 @@
   .signUpRight {
     width: 100%;
     border-radius: 10px;
+    padding: 20px;
   }
 }
 
 @media (max-width: 700px) {
   .signUpContainer {
-    padding: 20px;
+    padding: 10px; /* Reduced padding */
   }
 
   .signUpBox {
@@ -128,20 +158,20 @@
   }
 
   .signUpRight {
-    padding: 20px;
+    padding: 15px; /* Reduced padding */
   }
 }
 
 @media (max-width: 500px) {
   .signUpInput {
-    font-size: 14px;
+    font-size: 12px; /* Reduced font size */
   }
 
   .signUpButton {
-    font-size: 14px;
+    font-size: 12px; /* Reduced font size */
   }
 
   .signUpText {
-    font-size: 12px;
+    font-size: 10px; /* Reduced font size */
   }
 }

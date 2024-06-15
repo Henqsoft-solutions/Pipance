@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Algeria",
+    "states": ["Adrar", "Chlef", "Laghouat", "Oum El Bouaghi", "Batna", "Béjaïa", "Biskra", "Béchar", "Blida", "Bouira", "Tamanrasset", "Tébessa", "Tlemcen", "Tiaret", "Tizi Ouzou", "Algiers", "Djelfa", "Jijel", "Sétif", "Saïda", "Skikda", "Sidi Bel Abbès", "Annaba", "Guelma", "Constantine", "Médéa", "Mostaganem", "M'Sila", "Mascara", "Ouargla", "Oran", "El Bayadh", "Illizi", "Bordj Bou Arréridj", "Boumerdès", "El Tarf", "Tindouf", "Tissemsilt", "El Oued", "Khenchela", "Souk Ahras", "Tipasa", "Mila", "Aïn Defla", "Naâma", "Aïn Témouchent", "Ghardaïa", "Relizane"]
+  },
+  {
+    "name": "Angola",
+    "states": ["Bengo", "Benguela", "Bié", "Cabinda", "Cuando Cubango", "Cuanza Norte", "Cuanza Sul", "Cunene", "Huambo", "Huíla", "Luanda", "Lunda Norte", "Lunda Sul", "Malanje", "Moxico", "Namibe", "Uíge", "Zaire"]
+  },
+  {
+    "name": "Benin",
+    "states": ["Alibori", "Atakora", "Atlantique", "Borgou", "Collines", "Donga", "Kouffo", "Littoral", "Mono", "Ouémé", "Plateau", "Zou"]
+  },
+  {
+    "name": "Botswana",
+    "states": ["Central", "Ghanzi", "Kgalagadi", "Kgatleng", "Kweneng", "North-East", "North-West", "South-East", "Southern"]
+  },
+  {
+    "name": "Burkina Faso",
+    "states": ["Balé", "Bam", "Banwa", "Bazèga", "Bougouriba", "Boulgou", "Boulkiemdé", "Comoé", "Ganzourgou", "Gnagna", "Gourma", "Houet", "Ioba", "Kadiogo", "Kénédougou", "Komondjari", "Kompienga", "Kossi", "Koulpélogo", "Kouritenga", "Kourwéogo", "Léraba", "Loroum", "Mouhoun", "Nahouri", "Namentenga", "Nayala", "Noumbiel", "Oubritenga", "Oudalan", "Passoré", "Poni", "Sanguié", "Sanmatenga", "Séno", "Sissili", "Soum", "Sourou", "Tapoa", "Tuy", "Yagha", "Yatenga", "Ziro", "Zondoma", "Zoundwéogo"]
+  },
+  {
+    "name": "Burundi",
+    "states": ["Bubanza", "Bujumbura Mairie", "Bujumbura Rural", "Bururi", "Cankuzo", "Cibitoke", "Gitega", "Karuzi", "Kayanza", "Kirundo", "Makamba", "Muramvya", "Muyinga", "Mwaro", "Ngozi", "Rumonge", "Rutana", "Ruyigi"]
+  },
+  {
+    "name": "Cabo Verde",
+    "states": ["Boa Vista", "Brava", "Maio", "Paul", "Porto Novo", "Praia", "Ribeira Brava", "Ribeira Grande", "Sal", "Santa Catarina", "Santa Catarina do Fogo", "Santa Cruz", "São Domingos", "São Filipe", "São Miguel", "São Salvador do Mundo", "São Vicente", "Tarrafal", "Tarrafal de São Nicolau"]
+  },
+  {
+    "name": "Cameroon",
+    "states": ["Adamawa", "Centre", "East", "Far North", "Littoral", "North", "Northwest", "South", "Southwest", "West"]
+  },
+  {
+    "name": "Central African Republic",
+    "states": ["Bamingui-Bangoran", "Basse-Kotto", "Haute-Kotto", "Haut-Mbomou", "Kémo", "Lobaye", "Mambéré-Kadéï", "Mbomou", "Nana-Grébizi", "Nana-Mambéré", "Ombella-M'Poko", "Ouaka", "Ouham", "Ouham-Pendé", "Sangha-Mbaéré", "Vakaga"]
+  },
+  {
+    "name": "Chad",
+    "states": ["Batha", "Borkou", "Chari-Baguirmi", "Ennedi-Est", "Ennedi-Ouest", "Guéra", "Hadjer-Lamis", "Kanem", "Lac", "Logone Occidental", "Logone Oriental", "Mandoul", "Mayo-Kebbi Est", "Mayo-Kebbi Ouest", "Moyen-Chari", "N'Djamena", "Ouaddaï", "Salamat", "Sila", "Tandjilé", "Tibesti", "Wadi Fira"]
+  },
+  {
+    "name": "Comoros",
+    "states": ["Anjouan", "Grande Comore", "Mohéli"]
+  },
+  {
+    "name": "Congo, Democratic Republic of the",
+    "states": ["Kinshasa", "Bas-Uélé", "Haut-Uélé", "Ituri", "Tshopo", "Bas-Congo", "Kwilu", "Kwango", "Mai-Ndombe", "Equateur", "Haut-Lomami", "Haut-Katanga", "Lualaba", "Kasai", "Kasai-Central", "Kasai-Oriental", "Lomami", "Maniema", "Mongala", "Nord-Ubangi", "Sud-Ubangi", "Nord-Kivu", "Sud-Kivu", "Tanganyika"]
+  },
+  {
+    "name": "Congo, Republic of the",
+    "states": ["Bouenza", "Brazzaville", "Cuvette", "Cuvette-Ouest", "Kouilou", "Lékoumou", "Likouala", "Niari", "Plateaux", "Pointe-Noire", "Pool", "Sangha"]
+  },
+  {
+    "name": "Djibouti",
+    "states": ["Ali Sabieh", "Arta", "Dikhil", "Djibouti", "Obock", "Tadjourah"]
+  },
+  {
+    "name": "Egypt",
+    "states": ["Alexandria", "Aswan", "Asyut", "Beheira", "Beni Suef", "Cairo", "Dakahlia", "Damietta", "Faiyum", "Gharbia", "Giza", "Ismailia", "Kafr el-Sheikh", "Luxor", "Matruh", "Minya", "Monufia", "New Valley", "North Sinai", "Port Said", "Qalyubia", "Qena", "Red Sea", "Sharqia", "Sohag", "South Sinai", "Suez"]
+  },
+  {
+    "name": "Equatorial Guinea",
+    "states": ["Annobón", "Bioko Norte", "Bioko Sur", "Centro Sur", "Kié-Ntem", "Litoral", "Wele-Nzas"]
+  },
+  {
+    "name": "Eritrea",
+    "states": ["Anseba", "Debub", "Debubawi Keyih Bahri", "Gash-Barka", "Maekel", "Semenawi Keyih Bahri"]
+  },
+  {
+    "name": "Eswatini",
+    "states": ["Hhohho", "Lubombo", "Manzini", "Shiselweni"]
+  },
+  {
+    "name": "Ethiopia",
+    "states": ["Addis Ababa", "Afar", "Amhara", "Benishangul-Gumuz", "Dire Dawa", "Gambela", "Harari", "Oromia", "Sidama", "Somali", "Southern Nations, Nationalities, and Peoples", "Tigray"]
+  },
+  {
+    "name": "Gabon",
+    "states": ["Estuaire", "Haut-Ogooué", "Moyen-Ogooué", "Ngounié", "Nyanga", "Ogooué-Ivindo", "Ogooué-Lolo", "Ogooué-Maritime", "Woleu-Ntem"]
+  },
+  {
+    "name": "Gambia",
+    "states": ["Banjul", "Central River", "Lower River", "North Bank", "Upper River", "West Coast"]
+  },
+  {
+    "name": "Ghana",
+    "states": ["Ahafo", "Ashanti", "Bono", "Bono East", "Central", "Eastern", "Greater Accra", "Northern", "North East", "Oti", "Savannah", "Upper East", "Upper West", "Volta", "Western", "Western North"]
+  },
+  {
+    "name": "Guinea",
+    "states": ["Beyla", "Boffa", "Boké", "Conakry", "Coyah", "Dabola", "Dalaba", "Dinguiraye", "Dubréka", "Faranah", "Forécariah", "Fria", "Gaoual", "Guéckédou", "Kankan", "Kérouané", "Kindia", "Kissidougou", "Koubia", "Koundara", "Kouroussa", "Labé", "Lélouma", "Lola", "Macenta", "Mali", "Mamou", "Nzérékoré", "Pita", "Siguiri", "Télimélé", "Tougué", "Yomou"]
+  },
+  {
+    "name": "Guinea-Bissau",
+    "states": ["Bafatá", "Biombo", "Bissau", "Bolama", "Cacheu", "Gabú", "Oio", "Quinara", "Tombali"]
+  },
+  {
+    "name": "Ivory Coast",
+    "states": ["Abidjan", "Agnéby-Tiassa", "Bafing", "Bas-Sassandra", "Comoé", "Denguélé", "Gôh-Djiboua", "Lacs", "Lagunes", "Marahoué", "Montagnes", "Moyen-Cavally", "Moyen-Comoé", "N'zi-Comoé", "Sassandra-Marahoué", "Savanes", "Sud-Bandama", "Sud-Comoé", "Vallée du Bandama", "Woroba", "Yamoussoukro", "Zanzan"]
+  },
+  {
+    "name": "Kenya",
+    "states": ["Baringo", "Bomet", "Bungoma", "Busia", "Elgeyo-Marakwet", "Embu", "Garissa", "Homa Bay", "Isiolo", "Kajiado", "Kakamega", "Kericho", "Kiambu", "Kilifi", "Kirinyaga", "Kisii", "Kisumu", "Kitui", "Kwale", "Laikipia", "Lamu", "Machakos", "Makueni", "Mandera", "Marsabit", "Meru", "Migori", "Mombasa", "Murang'a", "Nairobi", "Nakuru", "Nandi", "Narok", "Nyamira", "Nyandarua", "Nyeri", "Samburu", "Siaya", "Taita-Taveta", "Tana River", "Tharaka-Nithi", "Trans-Nzoia", "Turkana", "Uasin Gishu", "Vihiga", "Wajir", "West Pokot"]
+  },
+  {
+    "name": "Lesotho",
+    "states": ["Berea", "Butha-Buthe", "Leribe", "Mafeteng", "Maseru", "Mohale's Hoek", "Mokhotlong", "Qacha's Nek", "Quthing", "Thaba-Tseka"]
+  },
+  {
+    "name": "Liberia",
+    "states": ["Bomi", "Bong", "Gbarpolu", "Grand Bassa", "Grand Cape Mount", "Grand Gedeh", "Grand Kru", "Lofa", "Margibi", "Maryland", "Montserrado", "Nimba", "River Cess", "River Gee", "Sinoe"]
+  },
+  {
+    "name": "Libya",
+    "states": ["Al Butnan", "Al Jabal al Akhdar", "Al Jabal al Gharbi", "Al Jafara", "Al Jufrah", "Al Kufrah", "Al Marj", "Al Marqab", "Al Wahat", "An Nuqat al Khams", "Az Zawiyah", "Benghazi", "Derna", "Ghat", "Murzuq", "Nalut", "Sabha", "Sirte", "Tripoli", "Wadi al Hayaa", "Wadi ash Shati", "Zintan"]
+  },
+  {
+    "name": "Madagascar",
+    "states": ["Antananarivo", "Antsiranana", "Fianarantsoa", "Mahajanga", "Toamasina", "Toliara"]
+  },
+  {
+    "name": "Malawi",
+    "states": ["Balaka", "Blantyre", "Chikwawa", "Chiradzulu", "Chitipa", "Dedza", "Dowa", "Karonga", "Kasungu", "Likoma", "Lilongwe", "Machinga", "Mangochi", "Mchinji", "Mulanje", "Mwanza", "Mzimba", "Neno", "Nkhata Bay", "Nkhotakota", "Nsanje", "Ntcheu", "Ntchisi", "Phalombe", "Rumphi", "Salima", "Thyolo", "Zomba"]
+  },
+  {
+    "name": "Mali",
+    "states": ["Bamako", "Gao", "Kayes", "Kidal", "Koulikoro", "Ménaka", "Mopti", "Ségou", "Sikasso", "Taoudénit", "Timbuktu"]
+  },
+  {
+    "name": "Mauritania",
+    "states": ["Adrar", "Assaba", "Brakna", "Dakhlet Nouadhibou", "Gorgol", "Guidimaka", "Hodh Ech Chargui", "Hodh El Gharbi", "Inchiri", "Nouakchott-Nord", "Nouakchott-Ouest", "Nouakchott-Sud", "Tagant", "Tiris Zemmour", "Trarza"]
+  },
+  {
+    "name": "Mauritius",
+    "states": ["Agalega Islands", "Beau Bassin-Rose Hill", "Black River", "Cargados Carajos", "Curepipe", "Flacq", "Grand Port", "Moka", "Pamplemousses", "Plaines Wilhems", "Port Louis", "Rivière du Rempart", "Rodrigues Island", "Savanne", "Vacoas-Phoenix"]
+  },
+  {
+    "name": "Morocco",
+    "states": ["Agadir-Ida Ou Tanane", "Al Haouz", "Al Hoceïma", "Assa-Zag", "Azilal", "Béni Mellal", "Benslimane", "Berkane", "Boujdour", "Boulemane", "Casablanca", "Chefchaouen", "Chichaoua", "Driouch", "El Hajeb", "El Jadida", "Errachidia", "Es Semara", "Essaouira", "Fahs-Anjra", "Fès", "Figuig", "Guelmim", "Guercif", "Ifrane", "Inezgane-Aït Melloul", "Jerada", "Kénitra", "Kelaat Sraghna", "Khemisset", "Khenifra", "Khouribga", "Laâyoune", "Larache", "Marrakech", "Médiouna", "Meknès", "Mohammadia", "Nador", "Nouaceur", "Ouarzazate", "Ouazzane", "Oued Ed-Dahab", "Oujda-Angad", "Rabat", "Rehamna", "Salé", "Sefrou", "Settat", "Sidi Bennour", "Sidi Ifni", "Sidi Kacem", "Sidi Slimane", "Skhirate-Témara", "Tan-Tan", "Tanger-Assilah", "Taounate", "Taourirt", "Taroudannt", "Tata", "Taza", "Tétouan", "Tinghir", "Tiznit", "Youssoufia", "Zagora"]
+  },
+  {
+    "name": "Mozambique",
+    "states": ["Cabo Delgado", "Gaza", "Inhambane", "Manica", "Maputo", "Maputo City", "Nampula", "Niassa", "Sofala", "Tete", "Zambezia"]
+  },
+  {
+    "name": "Namibia",
+    "states": ["Erongo", "Hardap", "Karas", "Kavango East", "Kavango West", "Khomas", "Kunene", "Ohangwena", "Omaheke", "Omusati", "Oshana", "Oshikoto", "Otjozondjupa", "Zambezi"]
+  },
+  {
+    "name": "Niger",
+    "states": ["Agadez", "Diffa", "Dosso", "Maradi", "Niamey", "Tahoua", "Tillabéri", "Zinder"]
+  },
+  {
+    "name": "Nigeria",
+    "states": ["Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "FCT-Abuja", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi", "Kwara", "Lagos", "Nasarawa", "Niger", "Ogun", "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara"]
+  },
+  {
+    "name": "Rwanda",
+    "states": ["Eastern", "Kigali", "Northern", "Southern", "Western"]
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "states": ["Água Grande", "Cantagalo", "Caué", "Lemba", "Lobata", "Mé-Zóchi", "Príncipe"]
+  },
+  {
+    "name": "Senegal",
+    "states": ["Dakar", "Diourbel", "Fatick", "Kaffrine", "Kaolack", "Kédougou", "Kolda", "Louga", "Matam", "Saint-Louis", "Sédhiou", "Tambacounda", "Thiès", "Ziguinchor"]
+  },
+  {
+    "name": "Seychelles",
+    "states": ["Anse aux Pins", "Anse Boileau", "Anse Etoile", "Anse Royale", "Baie Lazare", "Baie Sainte Anne", "Beau Vallon", "Bel Air", "Bel Ombre", "Cascade", "Glacis", "Grand'Anse Mahé", "Grand'Anse Praslin", "La Digue", "La Rivière Anglaise", "Les Mamelles", "Mont Buxton", "Mont Fleuri", "Plaisance", "Pointe La Rue", "Port Glaud", "Roche Caiman", "Saint Louis", "Takamaka"]
+  },
+  {
+    "name": "Sierra Leone",
+    "states": ["Eastern", "Northern", "North Western", "Southern", "Western"]
+  },
+  {
+    "name": "Somalia",
+    "states": ["Awdal", "Bakool", "Banaadir", "Bari", "Bay", "Galguduud", "Gedo", "Hiiraan", "Jubbada Dhexe", "Jubbada Hoose", "Mudug", "Nugaal", "Sanaag", "Shabeellaha Dhexe", "Shabeellaha Hoose", "Sool", "Togdheer", "Woqooyi Galbeed"]
+  },
+  {
+    "name": "South Africa",
+    "states": ["Eastern Cape", "Free State", "Gauteng", "KwaZulu-Natal", "Limpopo", "Mpumalanga", "North West", "Northern Cape", "Western Cape"]
+  },
+  {
+    "name": "South Sudan",
+    "states": ["Central Equatoria", "Eastern Equatoria", "Jonglei", "Lakes", "Northern Bahr el Ghazal", "Unity", "Upper Nile", "Warrap", "Western Bahr el Ghazal", "Western Equatoria"]
+  },
+  {
+    "name": "Sudan",
+    "states": ["Al Jazirah", "Al Qadarif", "Blue Nile", "Central Darfur", "East Darfur", "Kassala", "Khartoum", "North Darfur", "North Kordofan", "Northern", "Red Sea", "River Nile", "Sennar", "South Darfur", "South Kordofan", "West Darfur", "West Kordofan", "White Nile"]
+  },
+  {
+    "name": "Tanzania",
+    "states": ["Arusha", "Dar es Salaam", "Dodoma", "Geita", "Iringa", "Kagera", "Katavi", "Kigoma", "Kilimanjaro", "Lindi", "Manyara", "Mara", "Mbeya", "Morogoro", "Mtwara", "Mwanza", "Njombe", "Pemba North", "Pemba South", "Pwani", "Rukwa", "Ruvuma", "Shinyanga", "Simiyu", "Singida", "Tabora", "Tanga", "Zanzibar Central/South", "Zanzibar North", "Zanzibar Urban/West"]
+  },
+  {
+    "name": "Togo",
+    "states": ["Centrale", "Kara", "Maritime", "Plateaux", "Savanes"]
+  },
+  {
+    "name": "Tunisia",
+    "states": ["Ariana", "Beja", "Ben Arous", "Bizerte", "Gabes", "Gafsa", "Jendouba", "Kairouan", "Kasserine", "Kebili", "Kef", "Mahdia", "Manouba", "Medenine", "Monastir", "Nabeul", "Sfax", "Sidi Bouzid", "Siliana", "Sousse", "Tataouine", "Tozeur", "Tunis", "Zaghouan"]
+  },
+  {
+    "name": "Uganda",
+    "states": ["Abim", "Adjumani", "Agago", "Alebtong", "Amolatar", "Amudat", "Amuria", "Amuru", "Apac", "Arua", "Budaka", "Bududa", "Bugiri", "Bugweri", "Buhweju", "Buikwe", "Bukedea", "Bukomansimbi", "Bukwa", "Bulambuli", "Buliisa", "Bundibugyo", "Bunyangabu", "Bushenyi", "Busia", "Butaleja", "Butambala", "Butebo", "Buvuma", "Buyende", "Dokolo", "Gomba", "Gulu", "Hoima", "Ibanda", "Iganga", "Isingiro", "Jinja", "Kaabong", "Kabale", "Kabarole", "Kaberamaido", "Kalangala", "Kaliro", "Kalungu", "Kampala", "Kamuli", "Kamwenge", "Kanungu", "Kapchorwa", "Kasanda", "Kasese", "Kassanda", "Kata", "Katakwi", "Kayunga", "Kibaale", "Kiboga", "Kibuku", "Kigezi", "Kiruhura", "Kiryandongo", "Kisoro", "Kitagwenda", "Kitgum", "Koboko", "Kole", "Kotido", "Kumi", "Kween", "Kyankwanzi", "Kyegegwa", "Kyenjojo", "Kyotera", "Lamwo", "Lira", "Luuka", "Luwero", "Lwengo", "Lyantonde", "Madi-Okollo", "Manafwa", "Maracha", "Masaka", "Masindi", "Mayuge", "Mbale", "Mbarara", "Mitooma", "Mityana", "Moroto", "Moyo", "Mpigi", "Mubende", "Mukono", "Nabilatuk", "Nakapiripirit", "Nakaseke", "Nakasongola", "Namayingo", "Namisindwa", "Namutumba", "Napak", "Nebbi", "Ngora", "Ntoroko", "Ntungamo", "Nwoya", "Omoro", "Otuke", "Oyam", "Pader", "Pakwach", "Pallisa", "Rakai", "Rwampara", "Rubanda", "Rubirizi", "Rukungiri", "Sembabule", "Serere", "Sheema", "Sironko", "Soroti", "Terego", "Tororo", "Wakiso", "Yumbe", "Zombo"]
+  },
+  {
+    "name": "Zambia",
+    "states": ["Central", "Copperbelt", "Eastern", "Luapula", "Lusaka", "Muchinga", "Northern", "North-Western", "Southern", "Western"]
+  },
+  {
+    "name": "Zimbabwe",
+    "states": ["Bulawayo", "Harare", "Manicaland", "Mashonaland Central", "Mashonaland East", "Mashonaland West", "Masvingo", "Matabeleland North", "Matabeleland South", "Midlands"]
+  }
+]
