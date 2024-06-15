@@ -83,9 +83,17 @@
   padding-bottom: 15px;
 }
 
+.signInTexts {
+  font-size: 14px;
+  color: #100f0f;
+  text-align: center;
+  padding-bottom: 15px;
+  font: bold;
+}
+
 .signInLink {
-  color: #007BFF;
   text-decoration: none;
+  color: #010220;
 }
 
 .signInLink:hover {
@@ -98,5 +106,14 @@
   line-height: 20.16px;
   text-align: left;
   color: #010220;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
+}
+
+.Terms {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 15.12px;
+  text-align: center;
+  color: #287BFF;
+  padding: 5px;
 }

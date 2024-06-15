@@ -65,10 +65,12 @@ const SignInPage = () => {
             <button className={styles.signInButton} type="submit">
               Sign in
             </button>
-            <p>By creating an account, you agree to the <b>Terms of Service</b> and <b>Privacy Policy</b></p>
+            <p className={styles.Terms}>
+              By creating an account, you agree to the <b>Terms of Service</b> and <b>Privacy Policy</b>
+              </p>
           </form>
-          <p className={styles.signInText}>
-            Don’t have an account? <a href="/sign-up" className={styles.signInLink}>Sign Up</a>
+          <p className={styles.signInTexts}>
+            <b>Don’t have an account? <a href="/sign-up" className={styles.signInLink}>Sign Up</a></b>
           </p>
         </div>
         <div className={styles.signInRight}>
