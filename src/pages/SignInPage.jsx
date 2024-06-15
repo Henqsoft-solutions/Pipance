@@ -38,7 +38,7 @@ const SignInPage = () => {
       <div className={styles.signInBox}>
         <div className={styles.signInLeft}>
           <h2 className={styles.signInTitle}>Welcome back!</h2>
-          <p>Please enter your details!</p>
+          <p className={styles.Paragraph}>Please enter your details!</p>
           <form className={styles.signInForm} onSubmit={handleSubmit}>
             <input
               className={styles.signInInput}

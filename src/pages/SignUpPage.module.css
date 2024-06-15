@@ -1,13 +1,14 @@
-/* src/pages/SignInPage.module.css */
-.signInContainer {
+/* src/pages/SignUpPage.module.css */
+.signUpContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background-color: #f9f9f9;
+  max-resolution: 500px;
 }
 
-.signInBox {
+.signUpBox {
   display: flex;
   width: 800px;
   background-color: #fff;
@@ -15,12 +16,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.signInLeft {
-  flex: 1;
-  padding: 40px;
-}
-
-.signInRight {
+.signUpLeft {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -28,7 +24,12 @@
   justify-content: center;
 }
 
-.signInTitle {
+.signUpRight {
+  flex: 1;
+  padding: 40px;
+}
+
+.signUpTitle {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -46,12 +47,21 @@
   color:#287BFF;
 }
 
-.signInForm {
+.InputText {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20.16px;
+  text-align: left;
+  color: #010220;
+;
+}
+
+.signUpForm {
   display: flex;
   flex-direction: column;
 }
 
-.signInInput {
+.signUpInput {
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ddd;
@@ -59,7 +69,7 @@
   font-size: 16px;
 }
 
-.signInButton {
+.signUpButton {
   padding: 10px;
   background-color: #007BFF;
   color: #fff;
@@ -69,20 +79,65 @@
   cursor: pointer;
 }
 
-.signInButton:hover {
+.signUpButton:hover {
   background-color: #0056b3;
 }
 
-.signInText {
+.signUpText {
   font-size: 14px;
   color: #555;
 }
 
-.signInLink {
+.signUpLink {
   color: #007BFF;
   text-decoration: none;
 }
 
-.signInLink:hover {
+.signUpLink:hover {
   text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 1050px) {
+  .signUpBox {
+    flex-direction: column;
+  }
+
+  .signUpLeft {
+    display: none;
+  }
+
+  .signUpRight {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .signUpContainer {
+    padding: 20px;
+  }
+
+  .signUpBox {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .signUpRight {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .signUpInput {
+    font-size: 14px;
+  }
+
+  .signUpButton {
+    font-size: 14px;
+  }
+
+  .signUpText {
+    font-size: 12px;
+  }
 }
