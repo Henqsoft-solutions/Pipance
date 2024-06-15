@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Select from 'react-select';
 import styles from './SignUpPage.module.css';
 import logo from '../assets/logo.svg';
-import countryData from './countries.json'; // Import country and state data
+import countryData from './countries.json';
 
 const SignUpPage = () => {
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -10,7 +10,7 @@ const SignUpPage = () => {
 
   const handleCountryChange = (selectedOption) => {
     setSelectedCountry(selectedOption);
-    setSelectedState(null); // Reset state selection when country changes
+    setSelectedState(null);
   };
 
   const handleStateChange = (selectedOption) => {
@@ -43,9 +43,9 @@ const SignUpPage = () => {
             <p className={styles.InputText}>Fullname</p>
             <input className={styles.signUpInput} type="text" placeholder="Fullname" />
             <p className={styles.InputText}>Email</p>
-            <input className={styles.signUpInput} type="email" placeholder="Email Address" />
+            <input className={styles.signUpInput} type="text" placeholder="Email Address" />
             <p className={styles.InputText}>Username</p>
-            <input className={styles.signUpInput} type="text" placeholder="Username" />
+            <input className={styles.signUpInput} type="text" placeholder="Your Username" />
             <p className={styles.InputText}>Password</p>
             <input className={styles.signUpInput} type="password" placeholder="Password" />
             <p className={styles.InputText}>Signup as</p>
@@ -58,7 +58,7 @@ const SignUpPage = () => {
                   value={selectedCountry}
                   onChange={handleCountryChange}
                   options={countries}
-                  placeholder="Select Country"
+                  placeholder="Country"
                 />
               </div>
               <div className={styles.InputHalfWrapper}>
@@ -68,7 +68,7 @@ const SignUpPage = () => {
                   value={selectedState}
                   onChange={handleStateChange}
                   options={states}
-                  placeholder="Select State"
+                  placeholder="State"
                   isDisabled={!selectedCountry}
                 />
               </div>

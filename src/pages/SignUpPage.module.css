@@ -76,37 +76,40 @@
 }
 
 .signUpInput {
-  padding: 8px; /* Reduced padding */
-  margin-bottom: 15px; /* Reduced margin */
-  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
   border-radius: 5px;
-  font-size: 14px; /* Reduced font size */
+  font-size: 16px;
+  border: 3px solid #465A83;
+  border-radius: 16px;
+  width: Fixed (439px);
 }
 
 .signUpInputHalf {
   padding: 8px; /* Reduced padding */
   margin-bottom: 15px; /* Reduced margin */
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 14px; /* Reduced font size */
+  border: 3px solid #465A83;
+  border-radius: 16px;
+  font-size: 16px;
   flex: 1;
 }
 
 .signUpInputRow {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 2px;
 }
 
 .signUpButton {
   padding: 10px;
-  background-color: #007BFF;
+  background-color: #287BFF;
   color: #fff;
   border: none;
-  border-radius: 5px;
-  font-size: 14px; /* Reduced font size */
+  border-radius: 16px;
+  font-size: 16px;
   cursor: pointer;
-  margin-top: 15px; /* Reduced margin */
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .signUpButton:hover {
